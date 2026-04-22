@@ -1,0 +1,29 @@
+1. Crear el enviroment (obligatorio)
+2. Establecer el tipo de datos que tengo (utf-8).
+charend = det[
+3. Cambiar _data por folium.
+4. Geopandas: tien una columna extra al final que me ayuda a identificar los distritos. 
+maps['geometry'].loc[2]
+5. La geometría de dataframe es una colección de puntos. 
+6. Merge: validad que los ID's sean únicos. 
+maps['IDDIST'].is_unique
+maps['IDDIST'].is_unique()zise
+- Se recomienda que el formato de los ID's tengan el mismo formato. 
+7. Establecer un sistema de referencia para los datos que contienen georeferencia (geopandas). 
+maps = maps.to_crs(epsg=4326)
+maps.crs
+8. Graficar (paso anterior al merge)
+fig, ax = plt.subp
+9. MERGE:
+dadaset_cv = pd
+10. Balancear los datos 
+null --> no había covid (enero 2020)
+o
+11. Extensiones --> instalar claude_code
+
+12. Generar los centroides para poder agregar el nombre de los distritos. 
+
+
+
+
+

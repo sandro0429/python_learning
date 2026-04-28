@@ -1,0 +1,18 @@
+Clase 28-04-2026
+
+1. LLM (Large Language Models)
+
+- Con toda la data que fue entrenada, repgresa la palabra con mayor probabilidad de aparacer siguiente. 
+
+2. TOKEN (What is that?)
+
+- Small chunks of "data" 
+- Un token, sualmente, representa una palabra (una mentira conveniente). Si se desea ser más específico, es lo más parecido a un morfema. 
+- El token, además, cuenta con un token ID. 
+
+EMBEDDINGS
+
+- Un subcomponente de los LLMs moderno es la matriz embedding. 
+- Es un vector de una representación semántica de las palabras. 
+- Se crean a partir de grupar un montón de datos. 
+
